@@ -1,1 +1,9 @@
-Abstract Factory Pattern  is used for providing low coupling with high level of abstraction
+Abstract Factory Pattern  is used for providing low coupling with high level of abstraction.
+
+SuperFactory is used to Access sub factory classes.
+
+The code flow is as follows :
+
+1) MainEntryPoint --> interacts --> MainFactoryClassForInteraction 
+2) MainFactortClassForInteraction --> interacts --> AbstractSubFactoryClass1 & AbstractSubFactoryClass2
+3) AbstractSubFactoryClass1 --> interacts --> SubClass1 OR AbstractSubFactoryClass2 --> interacts --> SubClass2
